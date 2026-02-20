@@ -70,15 +70,3 @@ class DocumentChunker:
             })
 
         return chunk_docs
-
-
-if __name__ == "__main__":
-    # Simple demonstration
-    print("DocumentChunker - Text Chunking Module")
-    print("=" * 60)
-    print("\nThis module chunks documents into smaller pieces.")
-    print("\nUsage:")
-    print("  from chunking import DocumentChunker")
-    print("  chunker = DocumentChunker(chunk_size=1000, chunk_overlap=200)")
-    print("  chunks = chunker.chunk_document(document)")
-    print("\n" + "=" * 60)
