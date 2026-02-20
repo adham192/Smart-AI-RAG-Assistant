@@ -19,7 +19,7 @@ class EmbeddingGenerator:
         self.client = genai.Client(api_key=self.api_key)
         self.model_name = config.EMBEDDING_MODEL
 
-        # Auto-detect real dimension — gemini-embedding-001 returns 3072, not 768
+        # Auto-detect real dimension — gemini-embedding-001 returns 3072
         test = self.client.models.embed_content(
             model=self.model_name,
             contents="test",
