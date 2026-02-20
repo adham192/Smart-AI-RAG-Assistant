@@ -5,7 +5,7 @@ FastAPI + LangServe backend for Hybrid RAG Assistant
 from fastapi import FastAPI, UploadFile, File
 from langserve import add_routes
 from langchain_core.runnables import RunnableLambda
-import shutil
+import shutil # temporarily saves the file to the local disk
 import os
 from src.vectorstore import FAISSVectorStore
 from src.RAG_pipeline import RAGPipeline
