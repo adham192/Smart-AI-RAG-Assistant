@@ -71,7 +71,7 @@ python frontend.py
 ```
 
 3. **Upload a Document:**
-   - Use the sidebar to upload PDF or DOCX files
+   - Upload PDF or DOCX files
 
 4. **Index Documents:**
    - Click "Upload & Index" to process and index the documents
